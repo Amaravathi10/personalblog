@@ -40,3 +40,25 @@ header{
     justify-content: space-between;
     transition: all .50s ease;
 }
+.logo{
+    font-size:33px;
+    color:var(--text-color);
+    font-weight: 700;
+}
+span{
+    color:var(--main-color);
+}
+.navbar{
+    display: flex;
+
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
