@@ -186,10 +186,6 @@ header.sticky{
 .center-text{
     text-align: center;
 }
-.center-text h2{
-    font-size: var(--h2-font);
-    font-weight: 800;
-}
 .food-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto));
@@ -229,8 +225,170 @@ header.sticky{
     transform: scale(1.04);
     cursor: pointer;
 }
-.center-btn{
-    text-align: center;
-    margin-top: 4rem;
 
+.txt{
+    text-align: center;
+}
+.Art{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 9rem;
+}
+
+.art-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.art-text h5{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.art-text h2{
+    font-size: var(--h2-font);
+    font-weight:800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.art-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffab;
+    margin-bottom: 35px;
+}
+.text{
+    text-align: center;
+}
+.Place{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    gap: 9rem;
+}
+
+
+.plc-text h5{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.plc-text h2{
+    font-size: var(--h2-font);
+    font-weight:800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.plc-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffab;
+    margin-bottom: 35px;
+}
+.plc-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+.txt{
+    text-align: center;
+}
+.Science{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 9rem;
+}
+
+.Science-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Science-text h2{
+    font-size: var(--h2-font);
+    font-weight:800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.Science-text h5{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.Science-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffab;
+    margin-bottom: 35px;
+}
+
+.center1-text{
+    text-align: center;
+}
+.movie-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+.box1{
+    position: relative;
+}
+.box1 img{
+    width: 100%;
+    height:100% ;
+    object-fit:cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+    transition: all .3s cubic-bezier(.449,.05,.55,.95);
+    will-change: filter;
+    display: block;
+}
+.box1 h6{
+    position: absolute;
+    left: 25px;
+    bottom: 95px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--main-color)
+}
+.box1 h4{  
+    position: absolute;
+    left: 25px;
+    bottom: 65px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.center1-text h5{  
+    left: 25px;
+    bottom: 65px;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--main-color);
+}
+
+.box1 img:hover{
+    filter:brightness(90%);
+    transform: scale(1.04);
+    cursor: pointer;
 }
