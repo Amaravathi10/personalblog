@@ -460,6 +460,7 @@ span{
         padding: 50px 8% 40px;
     }
 }
+
 @media(max-width:1200px){
     header{
         padding: 14px 5%;
