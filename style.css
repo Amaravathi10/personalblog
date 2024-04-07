@@ -392,3 +392,177 @@ header.sticky{
     transform: scale(1.04);
     cursor: pointer;
 }
+
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 2rem;
+}
+.footer-box{
+    display:flex;
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-box a{
+    color: #979797;
+    margin-bottom: 0.8;
+    transition: all .50s ease;
+}
+.footer-box a:hover{
+    transform: translate(-5px);
+    color: var(--text-color);
+}
+.social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #202020;
+    color: var(--text-color);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: transform 0.6s;
+}
+.social a:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translate(-4px);
+}
+.logo{
+    font-size:33px;
+    color:var(--text-color);
+    font-weight: 700;
+}
+span{
+    color:var(--main-color);
+}
+.copyright p{
+    text-align: center;
+    padding: 20px;
+    color: #979797;
+    font-size: 15px;
+}
+@media(max-width:1700px){
+    header{
+        padding: 18px 8%;
+    }
+    header.sticky{
+        padding: 7px 8%;
+    }
+    section{
+        padding: 50px 8% 40px;
+    }
+}
+@media(max-width:1200px){
+    header{
+        padding: 14px 5%;
+    }
+    header.sticky{
+        padding: 7px 5%;
+    }
+    section{
+        padding: 45px 5% 35px;
+    }
+    :root{
+        --h1-font:4.6rem;
+        --h2-font:2.8rem;
+        --p-font:15px;
+    }
+    .home{
+        height:90vh ;
+    }
+}
+@media(max-width:1050px){
+    .feature-content{
+        gap: 1.5rem;
+    }
+    .Food{
+        gap: 3rem;
+    }
+    .Art{
+        gap: 3rem;
+    }
+    .Place{
+        gap: 3rem;
+    }
+    .Science{
+        gap: 3rem;
+    }
+    .movie-content{
+        gap: 3rem;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 40px 60px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        transition: all .50s ease;
+    }
+    .navbar a {
+        display: block;
+        color: #979797;
+        padding: 0;
+        margin: 0px 0px 40px 0px;
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    .navbar.open{
+        left: 0;
+    }
+}
+
+@media(max-width:800px){
+    .Food{
+        grid-template-columns: 1fr;
+    }
+    .Art{
+        grid-template-columns: 1fr;
+    }
+    .Place{
+        grid-template-columns: 1fr;
+    }
+    .Science{
+        grid-template-columns: 1fr;
+    }
+    .movie-content{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:600px){
+    :root{
+        --h1-font:3.5rem;
+        --h2-font:2.1rem;
+    }
+    .home{
+        height:85vh;
+    }
+}
+
+@media(max-width:450px){
+    header{
+        padding: 12px 3%;
+    }
+    header.sticky{
+        padding: 7px 3%;
+    }
+    section{
+        padding: 60px 3% 50px;
+    }
+}
