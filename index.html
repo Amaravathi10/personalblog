@@ -14,7 +14,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-</head>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+    </head>
 <body>
     <!--Header design-->
     <header>
@@ -34,7 +36,7 @@
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
-    
+
     <!-- home section design-->
     <section class ="home" id="Home">
         <div class="home-text">
@@ -98,16 +100,20 @@
         </div>
         <div class="food-content">
             <div class="box">
+                
                 <img src="../travelblog/images/roast.jpg">
+                
                 <h6>Roastery Coffe House</h6>
                 <h4>Banjara Hills</h4>
-
+                <p>The cafe has a great ambience. The vibe is great with the aroma of coffee in the air.  It serve great varieties of coffee and the food options are also good. The Pizza was excellent.</p>
             </div>
+
 
             <div class="box">
                 <img src="../travelblog/images/laen.jpg">
                 <h6>La en vie rose Cafe</h6>
                 <h4>Gachibowli</h4>
+                <p1> The ambience was unique, cute, and positive. The decor and lighting were amazing for taking photographs. The couch, sofa, and chairs were quite comfortable. The food was good, but it could be better. </p1>
 
             </div>
 
@@ -115,6 +121,7 @@
                 <img src="../travelblog/images/gallery.jpg">
                 <h6>The Gallery Cafe</h6>
                 <h4>Green Valley</h4>
+                <p2>The place is perfect for every art lover. My usual itinerary is to first spend an hour at the gallery on the ground floor before entering the cafe. The cafe is adorned with a lot of artwork.It's an amazing experience.</p2>
 
             </div>
         </div>
@@ -179,7 +186,7 @@
         <div class="Science-img">
             <img src="../travelblog/images/Science2.jpeg" >
         </div>
-        <div class="art-text">
+        <div class="Science-text">
             
             <h2>B.M. Birla<br>Science Center</h2>
             <h5>Khairatabad-Hyd</h5>
@@ -255,7 +262,7 @@
             <a href="#Art">Art</a>
             <a href="#Place">Place</a>
             <a href="#Science">Science</a>
-            <a href="#movies">Movies</a>
+            <a href="#movie">Movies</a>
         </div>
 
         <div class="footer-box">
@@ -293,5 +300,37 @@
 
     <!--custom js file link-->
     <script src="script.js"></script>
+    <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+        });
+        ScrollReveal().reveal('.home-text', { delay: 500 ,origin:'right'});
+        ScrollReveal().reveal('.feature-content', { delay: 300 ,origin:'bottom'});
+        ScrollReveal().reveal('.center-text', { delay: 100 ,origin:'top'});
+        ScrollReveal().reveal('.center1-text', { delay: 100 ,origin:'top'});
+        ScrollReveal().reveal('.txt', { delay: 100 ,origin:'top'});
+        ScrollReveal().reveal('.text', { delay: 100 ,origin:'top'});
+        ScrollReveal().reveal('.food-content', { delay: 200 ,origin:'bottom'});
+        
+        ScrollReveal().reveal('.Art', { delay: 100 ,origin:'bottom'});
+        ScrollReveal().reveal('.art-img', { delay: 100 ,origin:'left'});
+        ScrollReveal().reveal('.art-text', { delay: 100 ,origin:'right'});
+        
+        ScrollReveal().reveal('.Place', { delay: 100 ,origin:'bottom'});
+        ScrollReveal().reveal('.plc-img', { delay: 100 ,origin:'right'});
+        ScrollReveal().reveal('.plc-text', { delay: 100 ,origin:'left'});
+        
+        ScrollReveal().reveal('.Science', { delay: 100 ,origin:'bottom'});
+        ScrollReveal().reveal('.Science-img', { delay: 100 ,origin:'left'});
+        ScrollReveal().reveal('.Science-text', { delay: 100 ,origin:'right'});
+        
+        ScrollReveal().reveal('.movie', { delay: 100 ,origin:'bottom'});
+        ScrollReveal().reveal('.movie-content', { delay: 100 ,origin:'bottom'});
+        
+        
+    </script>
 </body>
 </html>
