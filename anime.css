@@ -71,7 +71,7 @@ section{
     position: relative;
     height :50vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0.3)), url(../travelblog/images/bg1.jpg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0.3)), url(../personalblog/images/bg1.jpg);
     background-size: cover;
     background-position: bottom center;
     display: flex;
